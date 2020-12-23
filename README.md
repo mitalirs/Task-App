@@ -14,7 +14,7 @@
 ###### a. url(set the value as localhost:3000) and 
 ###### b. authtoken
 ##### 5.2 Edit the collection to select the 'bearer token' type inside the authorization tab and insert the value {{authtoken}} (the syntax for env variable) for the token key.
-##### 5.3 To automatically set the value of authtoken for every request after signing up/logging in, inside the Tests tab of signup/login requests write following codes respectively:
+##### 5.3 To automatically set the value of authtoken for every request after signing up/logging in, inside the Tests tab of signup and login requests write following codes respectively:
 ##### >>for signup
 ```if(pm.response.code === 201){pm.environment.set('authtoken', pm.response.json().token)}``` 
 ##### >>for login
