@@ -1,5 +1,5 @@
 # Task-App
-#### This is a development version of Task App (worked on this as guided by the nodejs course instructor Andrew Mead) which enables the user to create profile(add an avatar for your profile too!) and keep a track of the tasks to be performed/already performed
+#### This is a development version of Task App (worked on this as guided by the nodejs course instructor Andrew Mead) which enables the user to create profile and keep a track of the tasks to be performed/already performed
 ## Set up
 ### To set it up on your local machine
 ##### 1. Install [Nodejs](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com), [Postman](https://www.postman.com/)(to create and save HTTP/s requests and read their responses), [Robo3t](https://robomongo.org/)(GUI for mongoDB) on your machine
